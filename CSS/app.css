@@ -1,0 +1,161 @@
+
+
+body{
+    background-image: url("../image/herbe.jpg");
+    
+}
+
+.but1{
+    position: absolute;
+    z-index: 2;
+    border: 1px solid white; 
+    width: 5%;
+    height: 150px;
+    top: 240px;
+    left: 0px;
+    
+} 
+
+.but2{
+    position: absolute;
+    z-index: 2;
+    border-style: solid;
+    border: 1px solid white;
+    width: 5%;
+    height: 150px;
+    top: 240px;
+    right: 0px;
+}
+
+.surface1{
+    position: absolute;
+    z-index: 2;
+    border: 1px solid white; 
+    width: 28%;
+    height: 500px;
+    top: 65px;
+    left: 0px;
+    background-image: url("../image/herbe.jpg");
+   
+}
+
+.surface2{
+    position: absolute;
+    z-index: 2;
+    border: 1px solid white; 
+    width: 28%;
+    height: 500px;
+    top: 65px;
+    right:0px;
+    background-image: url("../image/herbe.jpg");
+   
+}
+
+.rondcentral{
+    position: absolute;
+    z-index: 2;
+    border: 1px solid white;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.lignecentral{
+    position: fixed;
+    z-index: 2;
+    border: 1px solid white;
+    left:50%;
+    height:100%;
+}
+
+.point1{
+    position: absolute;
+    z-index: 2;
+    border-radius: 100%; 
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    left: 17%;
+    background-color: white;
+}
+
+.point2{
+    position: absolute;
+    z-index: 2;
+    border-radius: 100%; 
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: 17%;
+    background-color: white;
+}
+
+.ballon{
+    position: absolute; 
+    z-index: 3;
+    top: 50%;
+    left:50%;
+    width:20px;
+    height:20px;
+    animation: mymove 1s;
+    transform: translate(-50%, -50%);
+    
+}
+    
+
+
+.arcdecercle1{
+    position: absolute;
+    z-index: 1;
+    border: 1px solid white;
+    top: 50%;
+    left: 28%;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.arcdecercle2{
+    position: absolute;
+    z-index: 1;
+    border: 1px solid white;
+    top: 50%;
+    right: 21.1%;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+@keyframes mymove{
+    100% {top: O%;}
+    
+}
+@keyframes mymove{
+    20%  {top: 20px;}
+}
+@keyframes mymove{ 
+    40%  {top: 40px;}
+}
+@keyframes mymove{    
+    60%  {top: 60px;}
+}
+@keyframes mymove{  
+    80%  {top: 80px;}
+}
+@keyframes mymove{ 
+    0% {top: 106px;}
+    
+   
+}
+
+
+
+
+
